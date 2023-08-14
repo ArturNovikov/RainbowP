@@ -47,3 +47,20 @@
         margin: 0;
         padding: 0;
     }
+    #content-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    #text-container {
+        width: 45%;
+    }
+    
+    #output-container {
+        width: 45%;
+    }
+    
+    #input-text {
+        width: 100%;
+    }
