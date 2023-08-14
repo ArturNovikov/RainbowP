@@ -36,3 +36,10 @@ function convertToColors() {
         outputContainer.appendChild(lineContainer);
     });
 }
+
+function adjustTextareaHeight() {
+    inputText.style.height = 'auto';
+    inputText.style.height = (inputText.scrollHeight) + 'px';
+}
+
+inputText.addEventListener('input', adjustTextareaHeight);
